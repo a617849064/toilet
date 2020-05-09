@@ -1,0 +1,52 @@
+<view class="padding-xl radius shadow-warp bg-white text-center">
+  <image class="logo" src="/images/cesuo.jpg"></image>
+  <view class="version">V 2.3</view>
+  <view class="title">寻公厕-出门必备</view>
+  <view>这么实用的工具，快分享给自己的亲朋好友吧</view>
+  <button open-type="share" class="cu-btn cuIcon-share round bg-red margin-top">分享此小程序</button>
+  </view>
+
+   <view class="margin-top">
+  <ad unit-id="adunit-34866f79e887594a" ad-type="grid" grid-opacity="0.8" grid-count="5" ad-theme="white"></ad>
+ </view>
+
+ <view class="cu-list menu sm-border card-menu margin-top">
+    <view class="cu-item" bindtap="copyJboltcn">
+      <view class="content">
+        <text class="cuIcon-link text-grey"></text>
+        <text class="text-grey">JBolt极速开发平台</text>
+      </view>
+       <view class="action">
+        <text class="text-grey text-sm">若您如厕功告成，顺手冲水了无痕</text>
+       </view>
+    </view>
+
+      <view class="cu-item" bindtap="copyJfinalxueyuan">
+      <view class="content">
+        <text class="cuIcon-link text-grey"></text>
+        <text class="text-grey">JFinal学院</text>
+      </view>
+       <view class="action">
+        <text class="text-grey text-sm">http://jfinalxueyuan.com</text>
+       </view>
+    </view>
+
+     <view class="cu-item" bindtap="copyWechat">
+      <view class="content">
+        <text class="cuIcon-weixin text-grey"></text>
+        <text class="text-grey">作者微信</text>
+      </view>
+       <view class="action">
+        <text class="text-grey text-sm">13761784647(点击复制)</text>
+       </view>
+    </view>
+  </view>
+ 
+
+
+ <!--底部说明信息-->
+  <view class="bottom-desc">
+    <text>若您如厕功告成，顺手冲水了无痕</text>
+  </view>
+
+ 

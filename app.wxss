@@ -1,0 +1,40 @@
+/*全局引入UI库*/
+@import "resources/lib/colorui/main.wxss";
+@import "resources/lib/colorui/icon.wxss";
+@import "resources/lib/colorui/animation.wxss";
+/**app.wxss**/
+text{
+  font-family: "微软雅黑"
+}
+page {
+  line-height: 1.6;
+  font-family: -apple-system-font, Helvetica Neue, sans-serif;
+  background: #F9F9F9;
+}
+
+.bottom-desc {
+  margin-top: 60rpx;
+  margin-bottom: 100rpx;
+  font-size: 24rpx;
+  padding: 0 100rpx;
+  text-align: center;
+  background-color: #f9f9f9;
+  border: none;
+  color: #b5afaf;
+}
+.container {
+  
+  overflow: hidden;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+.container::before {
+  position: fixed;
+  top: 0;
+  left: 0;
+  content: ' ';
+  width: 100%;
+  height: 1rpx;
+  background-color: #e2e2e2;
+  z-index: 5;
+}
